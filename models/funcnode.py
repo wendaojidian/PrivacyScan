@@ -80,7 +80,7 @@ def match_purpose_type(script, purpose_dict):
 
 
 class FuncNode:
-    def __init__(self, func_node, file_path, script_list):
+    def __init__(self, func_node, file_path, script_list=None):
         self.func_node = func_node
         self.file_path = file_path
         self.script_list = script_list
@@ -109,7 +109,7 @@ class FuncNode:
 
         if len(private_word_list) > 0:
             purpose = match_purpose_type(script, purpose_dict)
-            sentence_node = SuspectedSentenceNode(self.file_path, line_no, script_ori, private_word_list, purpose)
+            sentence_node = SuspectedSentenceNode(self.file_path, line_no, private_word_list, purpose, script_ori)
             all_nodes.append(sentence_node)
 
             # print(self.file_path, line_no)
@@ -150,9 +150,9 @@ class FuncNode:
                 for node_param in node_params:
                     if node_param in list(self.key_variable.keys()):
                         private_word_list_inherit, purpose_inherit = self.key_variable[node_param]
-                        sentence_node = SuspectedSentenceNode(self.file_path, line_no, script_ori,
+                        sentence_node = SuspectedSentenceNode(self.file_path, line_no,
                                                               private_word_list_inherit,
-                                                              purpose_inherit)
+                                                              purpose_inherit, script_ori)
                         all_nodes.append(sentence_node)
                         for target in node.targets:
                             if isinstance(target, ast.Name):
@@ -171,9 +171,9 @@ class FuncNode:
                 for node_param in node_params:
                     if node_param in list(self.key_variable.keys()) and len(private_word_list) == 0:
                         private_word_list_inherit, purpose_inherit = self.key_variable[node_param]
-                        sentence_node = SuspectedSentenceNode(self.file_path, line_no, script_ori,
+                        sentence_node = SuspectedSentenceNode(self.file_path, line_no,
                                                               private_word_list_inherit,
-                                                              purpose_inherit)
+                                                              purpose_inherit, script_ori)
                         all_nodes.append(sentence_node)
         # print("添加后", all_nodes)
 

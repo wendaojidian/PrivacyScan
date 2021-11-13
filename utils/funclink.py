@@ -1,6 +1,10 @@
+import ast
 import copy
 import os
 import re
+from _ast import AST
+import numpy as np
+
 import graphviz
 import pyan
 
@@ -8,10 +12,13 @@ import pyan
 class ProjectAnalyzer:
     def __init__(self, project):
         tmpfile = "./tmp.gv"
-        graghviz(tmpfile, walk_files_path(project))
+        file_list = walk_files_path(project)
+        self._clazzs = find_all_class(file_list, project=project)
+        graghviz(tmpfile, file_list)
         # _methods:函数名
         # _method_matrix:直接调用矩阵
-        self._methods, self._method_matrix, self._clazzs = analyze_gv(tmpfile, project=project, endpoint=".py")
+        self._methods, self._method_matrix = analyze_gv(tmpfile, project=project, endpoint=".py",
+                                                        class_exclude=self._clazzs)
         # _matrix:可达性矩阵
         # _mediate:中间节点矩阵
         self._matrix = copy.deepcopy(self._method_matrix)
@@ -46,47 +53,64 @@ class ProjectAnalyzer:
         return result
 
 
-def analyze_gv(gv, project="", endpoint=".py"):
+def find_all_class(file_list: list, project="", endpoint=".py"):
+    result = []
+    for f in file_list:
+        with open(f, 'r', encoding='utf8') as file:
+            lines = file.readlines()
+            tree = ast.parse(''.join(lines))
+            for node in tree.body:
+                part_result = find_class(node)
+                for i in range(len(part_result)):
+                    pa = part_result[i]
+                    pa = (f[len(project) + 1:len(f) - len(endpoint)] + os.path.sep + pa).replace(os.path.sep, ".")
+                    part_result[i] = pa
+                result.extend(part_result)
+
+    return result
+
+
+def find_class(node: AST):
+    if not isinstance(node, ast.ClassDef):
+        return []
+    else:
+        result = [node.name]
+        for son in node.body:
+            result.extend(find_class(son))
+        return result
+
+
+def analyze_gv(gv, project="", endpoint=".py", class_exclude=None):
     method_adjacency = []
     methods = []
-    clazzs = []
+    clazzs = [] if class_exclude is None else class_exclude
     with open(gv, 'r') as gv_file:
-        # 第一遍遍历找到所有的类
-        for line in gv_file.readlines():
-            match_group = re.search(r'([a-zA-Z0-9_]+)\s*->\s*([a-zA-Z0-9_]+)', line)
-            if match_group is not None:
-                # 根据类方法确定类名
-                dirs = match_group.group(1).split("__")
-                file = project + os.path.sep + os.path.sep.join(dirs[:len(dirs) - 2]) + endpoint
-                clazz = ".".join(dirs[:len(dirs) - 1])
-                is_clazz_method = os.path.isfile(file)
-                if is_clazz_method and clazz not in clazzs:
-                    clazzs.append(clazz)
-        # 第二遍遍历找到所有的函数依赖关系
+        # 遍历找到所有的函数依赖关系
         gv_file.seek(0, 0)
         for line in gv_file.readlines():
             match_group = re.search(r'([a-zA-Z0-9_]+)\s*->\s*([a-zA-Z0-9_]+)', line)
             if match_group is not None:
                 # 去除文件
-                if os.path.isfile(project + os.sep + match_group.group(1).replace("__", os.sep) + endpoint):
-                    # print("It's a file,skip!")
-                    continue
+                flag0 = os.path.isfile(project + os.sep + match_group.group(1).replace("__", os.sep) + endpoint)
+
                 # 去除私有方法
                 flag1 = match_group.group(1).find("____") >= 0
-                if flag1:
-                    continue
                 flag2 = match_group.group(2).find("____") >= 0
-                if flag2:
-                    continue
+
                 # 去除类
-                flag3 = match_group.group(1).replace("__", ".") in clazzs or match_group.group(2).replace("__", ".") in clazzs
-                if flag3:
+                flag3 = match_group.group(1).replace("__", ".") in clazzs or match_group.group(2).replace("__",
+                                                                                                          ".") in clazzs
+                flag4 = match_group.group(2).replace("__", ".") in clazzs or match_group.group(2).replace("__",
+                                                                                                          ".") in clazzs
+
+                if not flag0 and not flag1 and not flag3 and match_group.group(1) not in methods:
+                    methods.append(match_group.group(1).replace("__", "."))
+                if not flag2 and not flag4 and match_group.group(2) not in methods:
+                    methods.append(match_group.group(2).replace("__", "."))
+
+                if flag0 or flag1 or flag2 or flag3 or flag4:
                     continue
 
-                if match_group.group(1) not in methods:
-                    methods.append(match_group.group(1).replace("__", "."))
-                if match_group.group(2) not in methods:
-                    methods.append(match_group.group(2).replace("__", "."))
                 method_adjacency.append((methods.index(match_group.group(2).replace("__", ".")),
                                          methods.index(match_group.group(1).replace("__", "."))))
 
@@ -94,7 +118,7 @@ def analyze_gv(gv, project="", endpoint=".py"):
     method_matrix = [[0] * method_num for _ in range(method_num)]
     for adjacency in method_adjacency:
         method_matrix[adjacency[0]][adjacency[1]] = 1
-    return methods, method_matrix, clazzs
+    return methods, method_matrix
 
 
 """
@@ -165,8 +189,34 @@ def walk_files_path(path, endpoint='.py'):
     return file_list
 
 
+def get_link(func_node_dict, source_dir):
+    func_node_dict_all = {}
+    for key in func_node_dict.keys():
+        func_node_dict_all[key.split('.')[-1]] = func_node_dict[key]
+
+    pa = ProjectAnalyzer(source_dir)
+    for method in func_node_dict.keys():
+        if method in pa.get_methods():
+            # print("-------------------")
+            # print(method, [methods[0] for methods in pa.find_all_call_func(method)])
+            for method_link in (pa.find_all_call_func(method)):
+                if method_link[0] in func_node_dict.keys():
+                    func_node_dict_all[method_link[0].split('.')[-1]].extend(func_node_dict_all[method.split('.')[-1]])
+                else:
+                    func_node_dict_all[method_link[0].split('.')[-1]] = func_node_dict_all[method.split('.')[-1]]
+            #     print(method_link[0], func_node_dict_all[method_link[0]])
+            # print()
+
+
+    return func_node_dict_all
+
+
 if __name__ == '__main__':
     p = ProjectAnalyzer("/Users/liufan/program/PYTHON/SAP/cmdb-python-master")
-    print(p.get_class())
+    # print(p.get_methods())
+    print(p.find_all_call_func('utils.UserSession.checkUserSession'))
     for m in p.get_methods():
-        print(m, p.find_all_call_func(m))
+        for method_call, method_route in p.find_all_call_func(m):
+            if method_call == 'utils.UserSession.checkUserSession':
+                print(m, method_call, method_route)
+

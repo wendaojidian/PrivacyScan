@@ -51,10 +51,10 @@ def suspected_node_search_recursion(node, file_name, script_list, node_list=None
             if class_name is None:
                 func_path = func_node.file_path.replace(source_dir + '/', '').replace('.py',
                                                                                       '/' + func_node.func_name).replace(
-                    '/', '.').replace('__', '')
+                    '/', '.')
             else:
                 func_path = func_node.file_path.replace(source_dir + '/', '').replace('.py',
-                                                                                      '/' + class_name + "/" + func_node.func_name).replace('/', '.').replace('__', '')
+                                                                                      '/' + class_name + "/" + func_node.func_name).replace('/', '.')
             func_node_list[func_path] = func_node.private_info
     elif isinstance(node, ast.ClassDef):
         class_name = node.name
@@ -62,24 +62,21 @@ def suspected_node_search_recursion(node, file_name, script_list, node_list=None
             if isinstance(node_son, ast.FunctionDef):
                 node_list, func_node_list = suspected_node_search_recursion(node_son, file_name, script_list, node_list,
                                                                             func_node_list, class_name)
-    else:
-        try:
-            for node_son in node.body:
-                node_list, func_node_list = suspected_node_search_recursion(node_son, file_name, script_list, node_list,
-                                                                            func_node_list)
-        except AttributeError:
-            pass
+    try:
+        for node_son in node.body:
+            node_list, func_node_list = suspected_node_search_recursion(node_son, file_name, script_list, node_list,
+                                                                        func_node_list)
+    except AttributeError:
+        pass
 
     return node_list, func_node_list
 
 
-def suspected_node_search_from_files(file_list):
+def suspected_node_search_from_files(tree_lines):
     suspected_node_list = []
     func_node_dict = {}
-    for file in file_list:
-        lines = file.readlines()
-        tree = ast.parse(''.join(lines))
-        node_list, func_node_list = suspected_node_search_recursion(tree, file.name, lines, func_node_list=func_node_dict)
+    for tree, lines, file_name in tree_lines:
+        node_list, func_node_list = suspected_node_search_recursion(tree, file_name, lines, func_node_list=func_node_dict)
         suspected_node_list.extend(node_list)
     # print(len(suspected_node_list), len(func_node_dict.keys()))
 
