@@ -1,38 +1,51 @@
 import ast
+import copy
 from configparser import ConfigParser
 
 from accuracy.accuracytest import test_recall
+from algorithm.nodesearchfrommethod import suspected_node_search_sec
 from utils import fileio
 from algorithm.nodesearch import suspected_node_search_from_files
 import numpy \
     as np
 
 # from utils.funclink import ProjectAnalyzer
-from utils.funclink import ProjectAnalyzer
+from utils.funclink import ProjectAnalyzer, get_link
 
 
 def main(source):
     # step1: 读取文件
     file_list = fileio.walk_files(source)
 
-    # 构建ast树
-    suspected_node_list, func_node_dict = suspected_node_search_from_files(file_list)
-    # print(len(suspected_node_list))
+    tree_lines_files = []
+    for file in file_list:
+        lines = file.readlines()
+        tree = ast.parse(''.join(lines))
+        tree_lines_files.append((tree, lines, file.name))
 
+    # 构建ast树
+    suspected_node_list, func_node_dict = suspected_node_search_from_files(tree_lines_files)
+
+    func_node_dict_all = get_link(func_node_dict, source)
+    # for key, value in func_node_dict_all.items():
+    #     print(key, value)
+    # print(func_node_dict_all)
+    suspected_node_list_sec = suspected_node_search_sec(tree_lines_files, func_node_dict_all, suspected_node_list)
+    # print(suspected_node_list_sec)
+    suspected_node_list.extend(suspected_node_list_sec)
+    print(len(suspected_node_list))
     for node in suspected_node_list:
         print(node)
-    print(func_node_dict)
-    # print(suspected_node_list, func_node_dict)
+
+    # for node in suspected_node_list:
+    #     print(node)
 
     # test_recall(suspected_node_list, source)
-
-    # p = ProjectAnalyzer(source_dir)
     # for method in func_node_dict.keys():
     #     try:
     #         print(method, p.find_all_call_func(method))
     #     except ValueError:
-    #         pass
-
+    #         print(method)
 
 def main2(source_file):
     file_list = [open(source_file, encoding='utf-8')]
