@@ -1,6 +1,7 @@
 import ast
 import copy
 
+from models.funcnode import get_script
 from models.sentencenode import SuspectedSentenceNode
 
 
@@ -21,7 +22,7 @@ def get_func_list(node, func_list=None):
     return func_list
 
 
-def suspected_node_search_recsec(node, func_node_dict, node_list_1st, file_name, node_list=None):
+def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, file_name, node_list=None):
     if node_list is None:
         node_list = []
     func_list = []
@@ -44,9 +45,10 @@ def suspected_node_search_recsec(node, func_node_dict, node_list_1st, file_name,
         for func in func_list:
             if func in func_node_dict.keys():
                 private_info.extend(func_node_dict[func])
+        script = get_script(node, lines)
         if len(private_info) > 0:
             sentence_node = SuspectedSentenceNode(file_name, node.lineno, private_word_list=None, purpose=None,
-                                                  private_info=private_info)
+                                                  private_info=private_info, script=script)
             # print(sentence_node)
             has = False
             for node_1st in node_list_1st:
@@ -59,7 +61,7 @@ def suspected_node_search_recsec(node, func_node_dict, node_list_1st, file_name,
                 node_list.append(sentence_node)
     try:
         for node_son in node.body:
-            node_list = suspected_node_search_recsec(node_son, func_node_dict, node_list_1st, file_name, node_list)
+            node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list)
     except AttributeError:
         pass
 
@@ -74,7 +76,7 @@ def suspected_node_search_sec(tree_lines_files, func_node_dict, node_list_1st):
             func_node_dict_new[key.split('.')[-1]] = func_node_dict[key]
     # print(func_node_dict_new)
     for tree, lines, file_name in tree_lines_files:
-        suspected_node_sec = suspected_node_search_recsec(tree, func_node_dict, node_list_1st, file_name)
+        suspected_node_sec = suspected_node_search_recsec(tree, lines, func_node_dict, node_list_1st, file_name)
         suspected_node_list_sec.extend(suspected_node_sec)
 
     return suspected_node_list_sec

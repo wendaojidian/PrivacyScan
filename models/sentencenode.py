@@ -8,7 +8,7 @@ class SuspectedSentenceNode:
         self.private_info = private_info
 
     def __str__(self):
-        if self.private_word_list is not None:
+        if self.private_info is None:
             return self.file_path + ' ' + str(self.line_no) + '\n' + str(self.private_word_list) + ' ' + self.purpose
         else:
             return self.file_path + ' ' + str(self.line_no) + '\n' + str(self.private_info)

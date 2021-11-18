@@ -1,0 +1,3020 @@
+[
+  {
+    "Location": "cmdb/models.py 159",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 108",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 108",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 14",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 34",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 34",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 53",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 53",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 68",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 68",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 89",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/ambientController.py 89",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 121",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 121",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 15",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 15",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 34",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 34",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 55",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 55",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 77",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 77",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 96",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/apiInfoController.py 96",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 111",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 111",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 13",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 13",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 135",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 135",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 15",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 15",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 19",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 19",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 35",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 35",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 54",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 54",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 57",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 57",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 61",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 61",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 77",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 77",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 96",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/gitInfoController.py 96",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 102",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 102",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 15",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 15",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 26",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 48",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 48",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 79",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/hostInfoController.py 79",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 13",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 13",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 46",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 48",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 49",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 55",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/monitorInfoController.py 56",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 118",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 118",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 137",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 137",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 14",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 152",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 152",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 39",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 39",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 70",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 70",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 99",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectInfoController.py 99",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 101",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 101",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 120",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 120",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 144",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 144",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 15",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 15",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 39",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 39",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 62",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 62",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 82",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/projectSettingController.py 82",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 106",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 106",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 13",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 13",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 135",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 135",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 156",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 156",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 39",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 39",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 58",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 58",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 87",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/releaseOrderController.py 87",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 107",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 107",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 127",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 127",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 15",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 15",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 152",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 152",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 168",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 168",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 202",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 202",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 232",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 232",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 35",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 35",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 65",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 65",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 85",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/roleInfoController.py 85",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 100",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 102",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 131",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 131",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 14",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 157",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 157",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 37",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 37",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 57",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 57",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/saltController.py 99",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 118",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 118",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 122",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 124",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 152",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 207",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 207",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 213",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 43",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 43",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 70",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 86",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 86",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/taskListController.py 96",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 122",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 122",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 14",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 33",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 33",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 55",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 55",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 77",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 77",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 97",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/userGroupController.py 97",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 104",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 104",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 123",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 123",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 14",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 38",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 38",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 57",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 57",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 82",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/controller/vlanController.py 82",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 13",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 14",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 14",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 35",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 41",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/gitInfoDao.py 41",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 14",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 57",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 58",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 60",
+    "DataType": "key",
+    "Purpose": "Store/Local/Database",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 60",
+    "DataType": "IPAddress",
+    "Purpose": "Store/Local/Database",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/hostInfoDao.py 82",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 111",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 12",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 12",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 12",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 131",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 133",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 133",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 133",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 134",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 134",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 67",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 67",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 67",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 77",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 78",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/monitorInfoDao.py 78",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 16",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 16",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 20",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 21",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 21",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/networkDao.py 9",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/releaseOrderDao.py 32",
+    "DataType": "UserName",
+    "Purpose": "Store/Local/Directory",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/releaseOrderDao.py 32",
+    "DataType": "UserName",
+    "Purpose": "Store/Local/Directory",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/releaseOrderDao.py 32",
+    "DataType": "UserName",
+    "Purpose": "Store/Local/Directory",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/releaseOrderDao.py 32",
+    "DataType": "UserName",
+    "Purpose": "Store/Local/Directory",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 100",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 100",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 100",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 102",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 102",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 103",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 31",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 31",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 31",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 79",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 79",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 79",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 88",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 88",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 88",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 94",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/taskListDao.py 95",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 103",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 103",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 103",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 11",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 21",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 21",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 21",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 21",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 22",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 34",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 38",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 39",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 39",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 40",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 41",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 41",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 42",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 43",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 43",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 44",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 45",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 45",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 50",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 51",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 51",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 52",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 53",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 53",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 54",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 55",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 55",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 56",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 57",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 57",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 58",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 59",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 59",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 60",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 61",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 61",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 62",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 63",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 63",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 71",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 71",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 71",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 78",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 79",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 80",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 88",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 93",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 97",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 98",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 98",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 99",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 99",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/dao/userInfoDao.py 99",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 111",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 114",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 114",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 115",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 115",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 116",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 117",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 117",
+    "DataType": "jobTitle",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 130",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 132",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 132",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 133",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 133",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 134",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 135",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 135",
+    "DataType": "Salary",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 148",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 151",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 151",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 152",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 152",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 153",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 154",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 154",
+    "DataType": "MaritalStatus",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 167",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 17",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 17",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 170",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 170",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 171",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 171",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 172",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 173",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 173",
+    "DataType": "Religion",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 18",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 18",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 186",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 189",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 189",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 19",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 19",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 190",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 190",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 191",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 192",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 192",
+    "DataType": "Country",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 20",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 20",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 205",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 208",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 208",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 209",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 209",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 21",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 21",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 21",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 21",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 210",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 211",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 211",
+    "DataType": "HouseNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 22",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 227",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 227",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 24",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 243",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 246",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 246",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 247",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 247",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 248",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 249",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 249",
+    "DataType": "BiometricData",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 266",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 266",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 267",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 27",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 272",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 272",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 274",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 274",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 292",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 33",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 33",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 331",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 331",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 349",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 349",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 35",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 35",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 35",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 35",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 352",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 352",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 353",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 353",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 389",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 392",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 392",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 394",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 394",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 395",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 396",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 396",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 397",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 397",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 415",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 415",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 55",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 55",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 56",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 56",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 57",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 57",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 58",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 59",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 60",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 63",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 64",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "PhoneNumber",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 67",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 82",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 85",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 85",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 87",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 87",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 88",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 91",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 91",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 92",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 95",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 95",
+    "DataType": "PassWord",
+    "Purpose": "Usage/Anonymize/Hash",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 96",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "cmdb/views/test/userInfoController.py 96",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 100",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 100",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 100",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 105",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 117",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 118",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 118",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 118",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 125",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 130",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 130",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/ZabbixApi.py 95",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/saltstack.py 22",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/saltstack.py 22",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/saltstack.py 26",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/saltstack.py 26",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "sdk_api/saltstack.py 26",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 12",
+    "DataType": "Cookie",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 12",
+    "DataType": "Cookie",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 13",
+    "DataType": "Cookie",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 13",
+    "DataType": "Cookie",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 26",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 29",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 29",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 38",
+    "DataType": "MacAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 42",
+    "DataType": "IPAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 53",
+    "DataType": "MacAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/DeviceInfo.py 9",
+    "DataType": "Cookie",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/githot.py 7",
+    "DataType": "PassWord",
+    "Purpose": "Store/Local/Directory",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 17",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 17",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 20",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 20",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 25",
+    "DataType": "key",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 25",
+    "DataType": "UserName",
+    "Purpose": "Store/MessagingSystem/NATS",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 25",
+    "DataType": "PassWord",
+    "Purpose": "Store/MessagingSystem/NATS",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 25",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/kafka/consumer.py 25",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/nats/pynats/connection.py 46",
+    "DataType": "UserName",
+    "Purpose": "Store/MessagingSystem/NATS",
+    "Script": ""
+  },
+  {
+    "Location": "utils/nats/pynats/connection.py 46",
+    "DataType": "PassWord",
+    "Purpose": "Store/MessagingSystem/NATS",
+    "Script": ""
+  },
+  {
+    "Location": "utils/nats/pynats/connection.py 80",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/nats/pynats/connection.py 81",
+    "DataType": "UserName",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/nats/pynats/connection.py 82",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 12",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 12",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 13",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 13",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 14",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 14",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 14",
+    "DataType": "PassWord",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 15",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 15",
+    "DataType": "EmailAddress",
+    "Purpose": "Usage",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 30",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 32",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 33",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  },
+  {
+    "Location": "utils/sendemail.py 34",
+    "DataType": "EmailAddress",
+    "Purpose": "Share/ExternalShare/ServiceProvider",
+    "Script": ""
+  }
+]

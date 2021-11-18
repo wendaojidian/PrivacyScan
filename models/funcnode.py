@@ -109,7 +109,7 @@ class FuncNode:
 
         if len(private_word_list) > 0:
             purpose = match_purpose_type(script, purpose_dict)
-            sentence_node = SuspectedSentenceNode(self.file_path, line_no, private_word_list, purpose, script_ori)
+            sentence_node = SuspectedSentenceNode(self.file_path, line_no, private_word_list, purpose, script=script_ori)
             all_nodes.append(sentence_node)
 
             # print(self.file_path, line_no)
@@ -152,7 +152,7 @@ class FuncNode:
                         private_word_list_inherit, purpose_inherit = self.key_variable[node_param]
                         sentence_node = SuspectedSentenceNode(self.file_path, line_no,
                                                               private_word_list_inherit,
-                                                              purpose_inherit, script_ori)
+                                                              purpose_inherit, script=script_ori)
                         all_nodes.append(sentence_node)
                         for target in node.targets:
                             if isinstance(target, ast.Name):
@@ -173,7 +173,7 @@ class FuncNode:
                         private_word_list_inherit, purpose_inherit = self.key_variable[node_param]
                         sentence_node = SuspectedSentenceNode(self.file_path, line_no,
                                                               private_word_list_inherit,
-                                                              purpose_inherit, script_ori)
+                                                              purpose_inherit, script=script_ori)
                         all_nodes.append(sentence_node)
         # print("添加后", all_nodes)
 
