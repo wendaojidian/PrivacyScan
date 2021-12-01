@@ -15,22 +15,24 @@ def out_analyze(node_list, source):
                 "Purpose": purpose,
                 "Script": ""
             })
-    print("manual:", manual_data_sorted)
 
     node_info_list = {}
     for node in node_list:
-        node_info_list[node.file_path.replace(source+'/', '')+' '+str(node.line_no)] = [node.private_info, node.script]
+        node_info_list[node.file_path.replace(source+'/', '')+' '+str(node.line_no)] = [node.private_info, node.script, node.confidence]
+        # print(node.confidence)
 
     node_info_list_sorted = []
     for key in sorted(node_info_list.keys()):
         for datatype, purpose in node_info_list[key][0]:
+            confidence = 1
+            if node_info_list[key][2] < 1:
+                confidence = node_info_list[key][2]
             node_info_list_sorted.append({
                 "Location": key,
                 "DataType": datatype,
                 "Purpose": purpose,
+                "confidence": confidence,
                 "Script": ""
-                # "Script": node_info_list[key][1]
             })
-    print("program:", node_info_list_sorted)
     write_json("manual.json", manual_data_sorted)
     write_json("program.json", node_info_list_sorted)

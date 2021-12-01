@@ -21,7 +21,7 @@
   },
   "Directory": {
     "path": "Store/Local/Directory",
-    "abbr": ["path", "Directory", "Dir", "savedir", "savePath", "saveto"]
+    "abbr": ["Directory", "Dir", "savedir", "savePath", "saveto"]
   },
   "Database": {
     "path": "Store/Local/Database",

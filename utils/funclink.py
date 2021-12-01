@@ -176,7 +176,7 @@ def test_algorithm():
 def graghviz(output, args: list):
     res = pyan.create_callgraph(args, format="dot")
     graph = graphviz.Source(res)
-    graph.view(filename=output)
+    # graph.view(filename=output)
 
 
 def walk_files_path(path, endpoint='.py'):
@@ -192,23 +192,29 @@ def walk_files_path(path, endpoint='.py'):
 def get_link(func_node_dict, source_dir):
     func_node_dict_all = {}
     for key in func_node_dict.keys():
-        func_node_dict_all[key.split('.')[-1]] = func_node_dict[key]
+        func_node_dict_all[key] = func_node_dict[key]
 
     pa = ProjectAnalyzer(source_dir)
     for method in func_node_dict.keys():
         if method in pa.get_methods():
-            # print("-------------------")
-            # print(method, [methods[0] for methods in pa.find_all_call_func(method)])
             for method_link in (pa.find_all_call_func(method)):
                 if method_link[0] in func_node_dict.keys():
-                    func_node_dict_all[method_link[0].split('.')[-1]].extend(func_node_dict_all[method.split('.')[-1]])
+                    func_node_dict_all[method_link[0]].extend(func_node_dict_all[method])
                 else:
-                    func_node_dict_all[method_link[0].split('.')[-1]] = func_node_dict_all[method.split('.')[-1]]
-            #     print(method_link[0], func_node_dict_all[method_link[0]])
-            # print()
+                    # print(method, method_link[0])
+                    func_node_dict_all[method_link[0]] = func_node_dict_all[method]
 
-
-    return func_node_dict_all
+    func_node_dict_combine = {}
+    for key in func_node_dict_all.keys():
+        if key.split('.')[-1] in func_node_dict_combine.keys():
+            func_node_dict_combine[key.split('.')[-1]]['privacy'].extend([usg for usg in func_node_dict_all[key] if
+                                                                          usg not in
+                                                                          func_node_dict_combine[key.split('.')[-1]][
+                                                                              'privacy']])
+            func_node_dict_combine[key.split('.')[-1]]['num'] += 1
+        else:
+            func_node_dict_combine[key.split('.')[-1]] = {'privacy': func_node_dict_all[key], 'num': 1}
+    return func_node_dict_combine
 
 
 if __name__ == '__main__':
