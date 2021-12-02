@@ -197,6 +197,7 @@ def get_link(func_node_dict, source_dir):
     pa = ProjectAnalyzer(source_dir)
     for method in func_node_dict.keys():
         if method in pa.get_methods():
+            # print(pa.find_all_call_func(method))
             for method_link in (pa.find_all_call_func(method)):
                 if method_link[0] in func_node_dict.keys():
                     func_node_dict_all[method_link[0]].extend(func_node_dict_all[method])
@@ -204,17 +205,19 @@ def get_link(func_node_dict, source_dir):
                     # print(method, method_link[0])
                     func_node_dict_all[method_link[0]] = func_node_dict_all[method]
 
-    func_node_dict_combine = {}
-    for key in func_node_dict_all.keys():
-        if key.split('.')[-1] in func_node_dict_combine.keys():
-            func_node_dict_combine[key.split('.')[-1]]['privacy'].extend([usg for usg in func_node_dict_all[key] if
-                                                                          usg not in
-                                                                          func_node_dict_combine[key.split('.')[-1]][
-                                                                              'privacy']])
-            func_node_dict_combine[key.split('.')[-1]]['num'] += 1
-        else:
-            func_node_dict_combine[key.split('.')[-1]] = {'privacy': func_node_dict_all[key], 'num': 1}
-    return func_node_dict_combine
+    print("func_node_dict: ", func_node_dict_all)
+
+    # func_node_dict_combine = {}
+    # for key in func_node_dict_all.keys():
+    #     if key.split('.')[-1] in func_node_dict_combine.keys():
+    #         func_node_dict_combine[key.split('.')[-1]]['privacy'].extend([usg for usg in func_node_dict_all[key] if
+    #                                                                       usg not in
+    #                                                                       func_node_dict_combine[key.split('.')[-1]][
+    #                                                                           'privacy']])
+    #         func_node_dict_combine[key.split('.')[-1]]['num'] += 1
+    #     else:
+    #         func_node_dict_combine[key.split('.')[-1]] = {'privacy': func_node_dict_all[key], 'num': 1}
+    return func_node_dict_all
 
 
 if __name__ == '__main__':

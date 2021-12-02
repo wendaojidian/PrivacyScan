@@ -34,13 +34,13 @@ def main(source):
     print(func_node_dict_all)
 
     suspected_node_list_sec = suspected_node_search_sec(tree_lines_files, func_node_dict_all, suspected_node_list)
-    for node in suspected_node_list_sec:
-        print(node.confidence)
+    # for node in suspected_node_list_sec:
+    #     print(node.confidence)
 
-    suspected_node_list.extend(suspected_node_list_sec)
-
-    test_recall_accuracy(suspected_node_list, source)
-    out_analyze(suspected_node_list, source)
+    # suspected_node_list.extend(suspected_node_list_sec)
+    #
+    # test_recall_accuracy(suspected_node_list, source)
+    # out_analyze(suspected_node_list, source)
 
 
 def main2(source_file):

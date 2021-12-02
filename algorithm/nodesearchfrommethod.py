@@ -1,5 +1,6 @@
 import ast
 import copy
+from configparser import ConfigParser
 
 from models.funcnode import get_script
 from models.sentencenode import SuspectedSentenceNode
@@ -28,7 +29,7 @@ def get_func_list(node, func_list=None):
     return func_list
 
 
-def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, file_name, node_list=None):
+def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, file_name, node_list=None, func_name=None):
     if node_list is None:
         node_list = []
     func_list = []
@@ -43,7 +44,17 @@ def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, fil
             func_list = get_func_list(item, func_list)
 
     if len(func_list) > 0:
-        confidence = 1
+        cp = ConfigParser()
+        cp.read("initparams.cfg", encoding='utf-8')
+        source_dir = cp.get('file_absolute_path', 'source_dir')
+        func_path = None
+        if func_name is not None:
+            func_path = file_name.replace(source_dir+"/", '').replace('py', func_name).replace('/', '.')
+            print(func_path)
+        # if func_name is not None:
+        #     print(file_name.replace(source_dir+"/", '').replace('py', func_name).replace('/', '.'))
+
+        # confidence = 1
         func_list = list(set(func_list))
         # print(func_list)
 
@@ -54,6 +65,10 @@ def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, fil
                 private_info.extend(func_node_dict[func]['privacy'])
                 confidence = 1/func_node_dict[func]['num']
         script = get_script(node, lines)
+        # print(file_name, func_name)
+        # print(script)
+        # print(func_list)
+        # print()
         # print(script)
         if len(private_info) > 0:
             # print(private_info)
@@ -69,11 +84,15 @@ def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, fil
             if not has:
                 # print(sentence_node)
                 node_list.append(sentence_node)
-    try:
+    if isinstance(node, ast.FunctionDef):
         for node_son in node.body:
-            node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list)
-    except AttributeError:
-        pass
+            node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list, func_name=node.name)
+    else:
+        try:
+            for node_son in node.body:
+                node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list, func_name=func_name)
+        except AttributeError:
+            pass
 
     return node_list
 
