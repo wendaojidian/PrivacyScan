@@ -17,6 +17,8 @@ class ProjectAnalyzer:
         graghviz(tmpfile, file_list)
         # _methods:函数名
         # _method_matrix:直接调用矩阵
+        # 行:被调用者
+        # 列:调用者
         self._methods, self._method_matrix = analyze_gv(tmpfile, project=project, endpoint=".py",
                                                         class_exclude=self._clazzs)
         # _matrix:可达性矩阵
@@ -30,15 +32,51 @@ class ProjectAnalyzer:
     def get_class(self):
         return self._clazzs
 
-    def find_direct_call_func(self):
-        result = {}
+    def find_direct_callee_func(self, target_func=None):
         dimension = len(self._methods)
-        for i in range(dimension):
-            result[self._methods[i]] = []
-            for j in range(dimension):
-                if self._method_matrix[i][j] > 0:
-                    result[self._methods[i]].append(self._methods[j])
-        return result
+        if target_func is None:
+            # 找出所有函数的直接callee
+            result = {}
+            for i in range(dimension):
+                result[self._methods[i]] = []
+                for j in range(dimension):
+                    if self._method_matrix[j][i] > 0:
+                        result[self._methods[i]].append(self._methods[j])
+            return result
+        else:
+            # 找出特定函数的直接callee
+            index = self._methods.index(target_func)
+
+            if index < 0:
+                raise Exception("no such method")
+            result = []
+            for i in range(dimension):
+                if self._method_matrix[i][index] > 0:
+                    result.append(self._methods[i])
+            return result
+
+    def find_direct_call_func(self, target_func=None):
+        dimension = len(self._methods)
+        if target_func is None:
+            # 找出所有函数的直接caller
+            result = {}
+            for i in range(dimension):
+                result[self._methods[i]] = []
+                for j in range(dimension):
+                    if self._method_matrix[i][j] > 0:
+                        result[self._methods[i]].append(self._methods[j])
+            return result
+        else:
+            # 找出特定函数的直接caller
+            index = self._methods.index(target_func)
+
+            if index < 0:
+                raise Exception("no such method")
+            result = []
+            for i in range(dimension):
+                if self._method_matrix[index][i] > 0:
+                    result.append(self._methods[i])
+            return result
 
     def find_all_call_func(self, target_func):
         dimension = len(self._methods)
@@ -228,4 +266,3 @@ if __name__ == '__main__':
         for method_call, method_route in p.find_all_call_func(m):
             if method_call == 'utils.UserSession.checkUserSession':
                 print(m, method_call, method_route)
-
