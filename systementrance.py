@@ -19,6 +19,7 @@ def main(source):
     # step1: 读取文件
     file_list = fileio.walk_files(source)
 
+    # tree_lines_files为（py文件字符串，根结点，文件名）三元组列表
     tree_lines_files = []
     for file in file_list:
         lines = file.readlines()
@@ -28,19 +29,19 @@ def main(source):
     # 构建ast树
     suspected_node_list, func_node_dict = suspected_node_search_from_files(tree_lines_files)
 
+    # 递归获取所有方法可能的隐私数据和操作
     func_node_dict_all = get_link(func_node_dict, source)
-    # for key, value in func_node_dict_all.items():
-    #     print(key, value)
-    print(func_node_dict_all)
 
-    suspected_node_list_sec = suspected_node_search_sec(tree_lines_files, func_node_dict_all, suspected_node_list)
-    # for node in suspected_node_list_sec:
-    #     print(node.confidence)
+    p = ProjectAnalyzer(source)
 
-    # suspected_node_list.extend(suspected_node_list_sec)
-    #
-    # test_recall_accuracy(suspected_node_list, source)
-    # out_analyze(suspected_node_list, source)
+    # 第二次遍历，找到所有通过调用方法产生的隐私数据操作。
+    suspected_node_list_sec = suspected_node_search_sec(tree_lines_files, func_node_dict_all, suspected_node_list,
+                                                        source_dir, p)
+
+    suspected_node_list.extend(suspected_node_list_sec)
+
+    test_recall_accuracy(suspected_node_list, source)
+    out_analyze(suspected_node_list, source)
 
 
 def main2(source_file):

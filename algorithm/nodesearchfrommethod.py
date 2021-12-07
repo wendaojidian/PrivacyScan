@@ -4,6 +4,7 @@ from configparser import ConfigParser
 
 from models.funcnode import get_script
 from models.sentencenode import SuspectedSentenceNode
+from utils.funclink import ProjectAnalyzer
 
 
 def get_func_list(node, func_list=None):
@@ -29,7 +30,7 @@ def get_func_list(node, func_list=None):
     return func_list
 
 
-def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, file_name, node_list=None, func_name=None):
+def suspected_node_search_recsec(source_dir, p, node, lines, func_node_dict, node_list_1st, file_name, node_list=None, func_name=None, class_name=None):
     if node_list is None:
         node_list = []
     func_list = []
@@ -44,63 +45,61 @@ def suspected_node_search_recsec(node, lines, func_node_dict, node_list_1st, fil
             func_list = get_func_list(item, func_list)
 
     if len(func_list) > 0:
-        cp = ConfigParser()
-        cp.read("initparams.cfg", encoding='utf-8')
-        source_dir = cp.get('file_absolute_path', 'source_dir')
+        func_call = []
         func_path = None
         if func_name is not None:
             func_path = file_name.replace(source_dir+"/", '').replace('py', func_name).replace('/', '.')
-            print(func_path)
-        # if func_name is not None:
-        #     print(file_name.replace(source_dir+"/", '').replace('py', func_name).replace('/', '.'))
+            if class_name is not None:
+                func_path = file_name.replace(source_dir + "/", '').replace('py', class_name + '.' + func_name).replace(
+                    '/', '.')
+            try:
+                func_call = p.find_direct_callee_func(func_path)
+            except:
+                pass
 
-        # confidence = 1
         func_list = list(set(func_list))
-        # print(func_list)
 
         private_info = []
         for func in func_list:
-            if func in func_node_dict.keys():
-                # print(func, func_node_dict[func])
-                private_info.extend(func_node_dict[func]['privacy'])
-                confidence = 1/func_node_dict[func]['num']
+            for func_c in func_call:
+                if func == func_c.split('.')[-1] and func_c in func_node_dict.keys():
+                    private_info.extend(func_node_dict[func_c])
         script = get_script(node, lines)
-        # print(file_name, func_name)
-        # print(script)
-        # print(func_list)
-        # print()
-        # print(script)
+
         if len(private_info) > 0:
-            # print(private_info)
             sentence_node = SuspectedSentenceNode(file_name, node.lineno, private_word_list=None, purpose=None,
-                                                  private_info=private_info, script=script, confidence=confidence)
-            # print(sentence_node)
+                                                  private_info=private_info, script=script)
             has = False
             for node_1st in node_list_1st:
-                # print(node_1st)
                 if sentence_node == node_1st:
                     has = True
                     break
             if not has:
-                # print(sentence_node)
                 node_list.append(sentence_node)
-    if isinstance(node, ast.FunctionDef):
+    if isinstance(node, ast.ClassDef):
         for node_son in node.body:
-            node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list, func_name=node.name)
+            node_list = suspected_node_search_recsec(source_dir, p, node_son, lines, func_node_dict, node_list_1st,
+                                                     file_name, node_list, func_name=node.name, class_name=node.name)
+    elif isinstance(node, ast.FunctionDef):
+        for node_son in node.body:
+            node_list = suspected_node_search_recsec(source_dir, p, node_son, lines, func_node_dict, node_list_1st,
+                                                     file_name, node_list, func_name=node.name, class_name=class_name)
     else:
         try:
             for node_son in node.body:
-                node_list = suspected_node_search_recsec(node_son, lines, func_node_dict, node_list_1st, file_name, node_list, func_name=func_name)
+                node_list = suspected_node_search_recsec(source_dir, p, node_son, lines, func_node_dict, node_list_1st,
+                                                         file_name, node_list, func_name=func_name,
+                                                         class_name=class_name)
         except AttributeError:
             pass
 
     return node_list
 
 
-def suspected_node_search_sec(tree_lines_files, func_node_dict, node_list_1st):
+def suspected_node_search_sec(tree_lines_files, func_node_dict, node_list_1st, source_dir, p):
     suspected_node_list_sec = []
     for tree, lines, file_name in tree_lines_files:
-        suspected_node_sec = suspected_node_search_recsec(tree, lines, func_node_dict, node_list_1st, file_name)
+        suspected_node_sec = suspected_node_search_recsec(source_dir, p, tree, lines, func_node_dict, node_list_1st, file_name)
         suspected_node_list_sec.extend(suspected_node_sec)
 
     return suspected_node_list_sec

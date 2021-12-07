@@ -34,5 +34,6 @@ def out_analyze(node_list, source):
                 "confidence": confidence,
                 "Script": ""
             })
+
     write_json("manual.json", manual_data_sorted)
     write_json("program.json", node_info_list_sorted)

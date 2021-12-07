@@ -39,6 +39,7 @@ class ProjectAnalyzer:
             result = {}
             for i in range(dimension):
                 result[self._methods[i]] = []
+            for i in range(dimension):
                 for j in range(dimension):
                     if self._method_matrix[j][i] > 0:
                         result[self._methods[i]].append(self._methods[j])
@@ -62,6 +63,7 @@ class ProjectAnalyzer:
             result = {}
             for i in range(dimension):
                 result[self._methods[i]] = []
+            for i in range(dimension):
                 for j in range(dimension):
                     if self._method_matrix[i][j] > 0:
                         result[self._methods[i]].append(self._methods[j])
@@ -214,7 +216,7 @@ def test_algorithm():
 def graghviz(output, args: list):
     res = pyan.create_callgraph(args, format="dot")
     graph = graphviz.Source(res)
-    # graph.view(filename=output)
+    graph.view(filename=output)
 
 
 def walk_files_path(path, endpoint='.py'):
@@ -261,8 +263,8 @@ def get_link(func_node_dict, source_dir):
 if __name__ == '__main__':
     p = ProjectAnalyzer("/Users/liufan/program/PYTHON/SAP/cmdb-python-master")
     # print(p.get_methods())
-    print(p.find_all_call_func('utils.UserSession.checkUserSession'))
-    for m in p.get_methods():
-        for method_call, method_route in p.find_all_call_func(m):
-            if method_call == 'utils.UserSession.checkUserSession':
-                print(m, method_call, method_route)
+    print(p.find_direct_callee_func().keys())
+    # for key, value in p.find_direct_callee_func().items():
+    #     print(key, value)
+    # print(p.find_direct_callee_func())
+
